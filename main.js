@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let isAdDisplayed = false;
     window.addEventListener("scroll", () => {
       if (isAdDisplayed) return;
-      if (window.scrollY > 1000) {
+      if (window.scrollY > 1500) {
         adBanner.classList.add("active");
         isAdDisplayed = true;
       }
