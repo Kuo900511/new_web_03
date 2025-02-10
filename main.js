@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let isAdDisplayed = false;
     window.addEventListener("scroll", () => {
       if (isAdDisplayed) return;
-      if (window.scrollY > 1582) {  //電腦版:1582，手機版:1600
+      if (window.scrollY > 1582) {
         adBanner.classList.add("active");
         isAdDisplayed = true;
       }
